@@ -38,6 +38,22 @@
       <label for="bio">Biography:</label>
       <textarea id="bio" name="user_bio"></textarea>
 
+      <label for="job">Job role:</label>
+      <select id="job" name="user_job">
+        <optgroup label="Weeb">
+          <option value="frontend_developer">Front-End Developer</option>
+          <option value="backend_developer">Back-End Developer</option>
+          <option value="php_developer">PHP Developer</option>
+          <option value="python_developer">Python Developer</option>
+        </optgroup>
+        <optgroup label="Mobile">
+          <option value="android_developer">Android Developer</option>
+          <option value="ios_developer">iOS Developer</option>
+        </optgroup>
+        <optgroup label="Bidniss">
+          <option value="freelancer">Freelancer</option>
+        </optgroup>
+      </select>
     </fieldset>
 
     <button type="submit">Sign Up</button>
